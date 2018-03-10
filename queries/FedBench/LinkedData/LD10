@@ -1,0 +1,7 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT * WHERE { 
+	?n skos:subject <http://dbpedia.org/resource/Category:Chancellors_of_Germany> . 
+	?n owl:sameAs ?p2 . 
+	?p2 <http://data.nytimes.com/elements/latest_use> ?u .
+}

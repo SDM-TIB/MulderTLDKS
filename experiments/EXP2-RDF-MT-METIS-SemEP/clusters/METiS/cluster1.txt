@@ -1,0 +1,6 @@
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2000/01/rdf-schema#subClassOf
+http://xmlns.com/foaf/0.1/homepage
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric2
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric3

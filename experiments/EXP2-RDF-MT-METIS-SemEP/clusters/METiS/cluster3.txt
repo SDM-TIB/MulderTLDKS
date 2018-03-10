@@ -1,0 +1,5 @@
+http://www.w3.org/2000/01/rdf-schema#comment
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric5
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual3
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/mbox_sha1sum

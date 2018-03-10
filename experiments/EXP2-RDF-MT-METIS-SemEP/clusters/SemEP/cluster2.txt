@@ -1,0 +1,3 @@
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country
+http://xmlns.com/foaf/0.1/name
+http://xmlns.com/foaf/0.1/mbox_sha1sum

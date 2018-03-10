@@ -1,0 +1,10 @@
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX dbowl: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE { 
+	?x dbowl:team dbpedia:Eintracht_Frankfurt . 
+	?x rdfs:label ?y . 
+	?x dbowl:birthDate ?d . 
+	?x dbowl:birthPlace ?p . 
+	?p rdfs:label ?l .
+} 

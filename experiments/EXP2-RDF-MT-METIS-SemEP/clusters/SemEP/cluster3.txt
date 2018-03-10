@@ -1,0 +1,10 @@
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/product
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/vendor
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/price
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validFrom
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validTo
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/deliveryDays
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/offerWebpage
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+http://purl.org/dc/elements/1.1/publisher
+http://purl.org/dc/elements/1.1/date

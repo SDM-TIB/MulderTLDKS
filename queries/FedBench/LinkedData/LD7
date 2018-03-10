@@ -1,0 +1,5 @@
+PREFIX gn: <http://www.geonames.org/ontology#>
+SELECT * WHERE {
+	?x gn:parentFeature <http://sws.geonames.org/2921044/> .
+	?x gn:name ?n .
+}

@@ -1,0 +1,5 @@
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewFor
+http://purl.org/stuff/rev#reviewer
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewDate
+http://purl.org/dc/elements/1.1/title
+http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating1

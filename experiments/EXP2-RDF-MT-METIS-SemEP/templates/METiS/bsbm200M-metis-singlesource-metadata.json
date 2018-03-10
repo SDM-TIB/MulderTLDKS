@@ -1,0 +1,254 @@
+[
+  {
+  "rootType": "cluster#0",
+  "linkedTo":[],
+  "predicates": [
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual4", "range":[],
+      "domain":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual5", "range":[],
+      "domain":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual6", "range": [],
+      "domain":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric4","range":[],
+      "domain":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric6","range":[],
+      "domain":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]}
+  ],
+  "wrappers":[
+    {"url":"http://172.18.160.18:9900/sparql", "urlparam": "", "wrapperType":"SPARQLEndpoint",
+      "predicates":[
+                    "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric6",
+                    "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual4",
+                    "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual5",
+                    "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual6",
+                    "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric4"
+      ]
+    }
+  ]
+ },
+  {
+  "rootType": "cluster#1",
+  "linkedTo":[],
+  "predicates": [
+    {"predicate":"http://www.w3.org/2000/01/rdf-schema#subClassOf", "range":[],
+      "domain": ["rdf:Class"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric2", "range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric3", "range": [],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country","range":[],
+      "domain": [
+                  "http://xmlns.com/foaf/0.1/Person",
+                  "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+                  "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor"
+      ]
+    },
+    {"predicate":"http://xmlns.com/foaf/0.1/homepage","range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+                  "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor"]},
+    {"predicate":"http://www.w3.org/2000/01/rdf-schema#label", "range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductType",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor"
+      ]}
+  ],
+  "wrappers":[
+    {"url":"http://172.18.160.18:9900/sparql", "urlparam": "", "wrapperType":"SPARQLEndpoint",
+      "predicates":[
+        "http://xmlns.com/foaf/0.1/homepage",
+        "http://www.w3.org/2000/01/rdf-schema#label",
+        "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric2",
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric3",
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/country"
+      ]
+    }
+  ]
+  },
+  {
+  "rootType": "cluster#2",
+  "linkedTo":[],
+  "predicates": [
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature",
+      "range":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature"],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual2", "range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual1", "range": [],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric1","range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/producer",
+      "range":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer"],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]}
+  ],
+  "wrappers":[
+    {"url":"http://172.18.160.18:9900/sparql", "urlparam": "", "wrapperType":"SPARQLEndpoint",
+      "predicates":[
+            "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/producer",
+            "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric1",
+            "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual1",
+            "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual2",
+            "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature"
+      ]
+    }
+  ]
+  },
+  {
+  "rootType": "cluster#3",
+  "linkedTo":[],
+  "predicates": [
+    {"predicate":"http://xmlns.com/foaf/0.1/mbox_sha1sum", "range":[],
+      "domain": ["http://xmlns.com/foaf/0.1/Person"]},
+    {"predicate":"http://xmlns.com/foaf/0.1/name", "range":[],
+      "domain": ["http://xmlns.com/foaf/0.1/Person"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual3", "range": [],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric5","range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"]},
+    {"predicate":"http://www.w3.org/2000/01/rdf-schema#comment","range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductType",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature"
+      ]}
+  ],
+  "wrappers":[
+    {"url":"http://172.18.160.18:9900/sparql", "urlparam": "", "wrapperType":"SPARQLEndpoint",
+      "predicates":[
+        "http://www.w3.org/2000/01/rdf-schema#comment",
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyNumeric5",
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productPropertyTextual3",
+        "http://xmlns.com/foaf/0.1/name",
+        "http://xmlns.com/foaf/0.1/mbox_sha1sum"
+      ]
+    }
+  ]
+  },
+  {
+  "rootType": "cluster#4",
+  "linkedTo":[],
+  "predicates": [
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating1", "range":[],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://purl.org/dc/elements/1.1/title", "range":[],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewDate", "range": [],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://purl.org/stuff/rev#reviewer",
+      "range":["http://xmlns.com/foaf/0.1/Person"],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewFor",
+      "range":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"],
+      "domain": ["http://purl.org/stuff/rev#Review"]}
+  ],
+  "wrappers":[
+    {"url":"http://172.18.160.18:9900/sparql", "urlparam": "", "wrapperType":"SPARQLEndpoint",
+      "predicates":[
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewFor",
+        "http://purl.org/stuff/rev#reviewer",
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/reviewDate",
+        "http://purl.org/dc/elements/1.1/title",
+        "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating1"
+      ]
+    }
+  ]
+  },
+  {
+  "rootType": "cluster#5",
+  "linkedTo":[],
+  "predicates": [
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating3", "range":[],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating2", "range":[],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating4","range":[],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://purl.org/stuff/rev#text", "range": [],
+      "domain": ["http://purl.org/stuff/rev#Review"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validFrom","range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"]},
+    {"predicate":"http://purl.org/dc/elements/1.1/date","range":[],
+      "domain": ["http://xmlns.com/foaf/0.1/Person",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductType",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature",
+                "http://purl.org/stuff/rev#Review"
+      ]},
+    {"predicate":"http://purl.org/dc/elements/1.1/publisher",
+      "range":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+               "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor"],
+      "domain": ["http://xmlns.com/foaf/0.1/Person",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductType",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature",
+                "http://purl.org/stuff/rev#Review"
+      ]},
+    {"predicate":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","range":[],
+      "domain": ["http://xmlns.com/foaf/0.1/Person",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Producer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductType",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer",
+                "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/ProductFeature",
+                "http://purl.org/stuff/rev#Review"
+      ]}
+  ],
+  "wrappers":[
+    {"url":"http://172.18.160.18:9900/sparql", "urlparam": "", "wrapperType":"SPARQLEndpoint",
+      "predicates":[
+          "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+          "http://purl.org/dc/elements/1.1/publisher",
+          "http://purl.org/dc/elements/1.1/date",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validFrom",
+          "http://purl.org/stuff/rev#text",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating2",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating3",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/rating4"
+      ]
+    }
+  ]
+  },
+  {
+  "rootType": "cluster#6",
+  "linkedTo":[],
+  "predicates": [
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/offerWebpage", "range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/deliveryDays", "range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validTo", "range": [],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/price","range":[],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/vendor",
+      "range":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Vendor"],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"]},
+    {"predicate":"http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/product",
+      "range":["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Product"],
+      "domain": ["http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/Offer"]}
+  ],
+  "wrappers":[
+    {"url":"http://172.18.160.18:9900/sparql", "urlparam": "", "wrapperType":"SPARQLEndpoint",
+      "predicates":[
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/product",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/vendor",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/price",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/validTo",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/deliveryDays",
+          "http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/offerWebpage"
+      ]
+    }
+  ]
+  }
+]

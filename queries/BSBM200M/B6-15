@@ -1,0 +1,18 @@
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX rev: <http://purl.org/stuff/rev#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?title ?text ?reviewDate ?reviewerName ?rating4 ?plabel
+WHERE {
+?review bsbm:reviewFor <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7967/Product404573> .
+?review dc:title ?title .
+?review rev:text ?text .
+?review bsbm:reviewDate ?reviewDate .
+?review rev:reviewer ?reviewer .
+?review dc:publisher ?reviewPublisher .
+?reviewer foaf:name ?reviewerName .
+?reviewer bsbm:country ?country  .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer7967/Product404573> rdfs:label ?plabel.
+OPTIONAL { ?review bsbm:rating4 ?rating4 . }
+}

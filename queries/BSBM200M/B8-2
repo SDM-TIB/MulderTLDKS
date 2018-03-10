@@ -1,0 +1,9 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bsbm: <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+SELECT ?property ?hasValue ?valueType ?vlabel
+WHERE {
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromVendor2827/Offer5574194> ?property ?hasValue .
+?hasValue a ?valueType .
+?hasValue rdfs:label ?vlabel .
+?hasValue bsbm:productFeature ?pf .
+}
